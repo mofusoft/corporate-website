@@ -16,13 +16,15 @@ enableRobotsTXT = true
 
 [params]
 
-  showBlog = true
-  mainSections = ['blog']
+  showBlog = false
+  postsSections = ['blog']
+  showNews = true
+  newsSections = ['news']
 
   googleFonts = true
 
   [params.logo]
-    main = "img/logo/logo.svg"
+    main = "img/logo/logo.png"
     alt = "Tella Logo"
 
     # The size parameter is the class name of tailwindcss
@@ -30,7 +32,7 @@ enableRobotsTXT = true
     size = "h-14"
 
   [params.site]
-    name = "Tella"
+    name = "もふソフト"
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
@@ -56,9 +58,9 @@ enableRobotsTXT = true
     weight = 1
 
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
+    identifier = "news"
+    name = "News"
+    url = "/news/"
     weight = 2
 
   [[menu.main]]
@@ -81,6 +83,6 @@ enableRobotsTXT = true
 
   [[menu.footer]]
     name = "Github"
-    url = "https://github.com/opera7133/tella"
+    url = "https://github.com/mofusoft"
     pre = "<i class='icon-github text-2xl'></i>"
       weight = 2
